@@ -24,14 +24,14 @@ export default function Section({
       <div className="container mx-auto px-4 sm:px-6 lg:px-20">
         {/* Heading */}
         {heading && (
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl text-center font-bold ">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight ">
             {heading}
           </h2>
         )}
 
         {/* Paragraph */}
         {paragraph && (
-          <p className="mt-3 sm:mt-4 text-base sm:text-lg lg:text-xl text-center max-w-3xl mx-auto  ">
+          <p className=" text-gray-600 text-lg  ">
             {paragraph}
           </p>
         )}
