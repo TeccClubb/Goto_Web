@@ -39,7 +39,7 @@ export default function FAQSection() {
     
        
 
-      <div className="mt-8 space-y-4 bg-white max-w-3xl mx-auto">
+      <div className="mt-8 space-y-4  max-w-4xl mx-auto">
         {faqs.map((faq, i) => (
           <FAQItem key={i} faq={faq} />
         ))}

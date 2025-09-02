@@ -26,7 +26,7 @@ const platforms = [
 ];
 export default function DownloadSection() {
     return (
-        <Section heading="Download GotoVPN" paragraph=" Get our app for all your devices and  stay protected  everywhere you go." className="bg-gray-100">
+        <Section heading="Download GotoVPN" paragraph=" Get our app for all your devices and  stay protected  everywhere you go." className="bg-gray-50">
             <div className="grid w-full max-w-4xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center px-4">
                 {/* your grid items */}
 

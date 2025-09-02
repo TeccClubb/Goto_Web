@@ -3,7 +3,7 @@ import HeroSection from "@/components/heroSection";
 import Image from "next/image";
 import WhyChoseVpn from "@/components/WhyChoseVpn";
 import DownloadSection from "@/components/DownloadSection";
-import CardSection from "@/components/pricing";
+import CardSection from "@/components/PricingSection";
 import Testimonials from "@/components/Testimonials";
  import Features from "@/components/Features";
  

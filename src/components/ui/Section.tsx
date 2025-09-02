@@ -31,7 +31,7 @@ export default function Section({
 
         {/* Paragraph */}
         {paragraph && (
-          <p className=" text-gray-600 text-lgmt-3 sm:mt-4 text-base sm:text-lg lg:text-xl text-center max-w-2xl mx-auto   ">
+          <p className=" text-gray-600 text-lg-mt-3 sm:mt-4 text-base sm:text-lg lg:text-xl text-center max-w-2xl mx-auto   ">
             {paragraph}
           </p>
         )}

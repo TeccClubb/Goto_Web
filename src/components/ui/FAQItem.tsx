@@ -12,7 +12,7 @@ export default function FAQItem({ faq }: { faq: FAQ }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="border rounded-xl  border-gray-300  shadow-sm">
+    <div className="border rounded-xl  bg-white border-gray-300  shadow-sm">
       <button
         className="w-full flex justify-between items-center p-4 text-left"
         onClick={() => setOpen(!open)}
