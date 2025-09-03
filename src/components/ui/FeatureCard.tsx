@@ -1,22 +1,19 @@
-import { ReactNode } from "react";
+import Image from "next/image";
 
 interface FeatureCardProps {
-  icon: ReactNode;
+  icon: string;
   title: string;
   description: string;
 }
 
 export default function FeatureCard({ icon, title, description }: FeatureCardProps) {
   return (
-    <div className="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition">
-      {/* Icon */}
-      <div className="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white text-2xl mb-4">
-        {icon}
+    <div className="p-6 rounded-xl border shadow-gray-400 shadow-lg border-gray-200 bg-white hover:shadow-xl transition">
+      <div className="flex justify-center lg:justify-start">
+        <Image src={icon} alt={title} width={50} height={50} />
       </div>
-      {/* Title */}
-      <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
-      {/* Description */}
-      <p className="text-gray-600 text-sm mt-2">{description}</p>
+      <h3 className="mt-6 text-lg font-semibold text-gray-900">{title}</h3>
+      <p className="mt-2 text-gray-600 text-sm">{description}</p>
     </div>
   );
 }

@@ -1,6 +1,6 @@
  
- import Section from "./ui/Section";
-import TestimonialCard from "./ui/TestimonialCard";
+ import Section from "../ui/Section";
+import TestimonialCard from "../ui/TestimonialCard";
 
 const testimonials = [
   {

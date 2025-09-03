@@ -1,7 +1,7 @@
-import Section from "./ui/Section";
-import PricingCard from "./ui/PricingCard";
+import Section from "../ui/Section";
+import PricingCard from "../ui/PricingCard";
 
-const plans = [
+export  const plans = [
   {
     title: "Monthly",
     price: "$12.99",

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react"; // hamburger + close icons
+import Link from "next/link";
 // import { poppins } from "@/app/layout";
 // import { poppins } from "@/lib/fonts/fonts"; // ✅ only poppins here
 
@@ -20,18 +21,18 @@ export default function Navbar() {
 
                 {/* Desktop Menu */}
                 <nav className="hidden md:flex space-x-8 text-lg font-medium text-gray-700">
-                    <a href="#" className="hover:text-blue-600">
+                    <Link href="/" className="hover:text-blue-600">
                         Home
-                    </a>
-                    <a href="#" className="hover:text-blue-600">
+                    </Link>
+                    <Link href="features" className="hover:text-blue-600">
                         Features
-                    </a>
-                    <a href="#" className="hover:text-blue-600">
+                    </Link>
+                    <Link href="/pricing" className="hover:text-blue-600">
                         Pricing
-                    </a>
-                    <a href="#" className="hover:text-blue-600">
+                    </Link>
+                    <Link href="/faq" className="hover:text-blue-600">
                         Faq
-                    </a>
+                    </Link>
                 </nav>
 
                 {/* Download Button */}
@@ -51,18 +52,18 @@ export default function Navbar() {
             {/* Mobile Dropdown */}
             {isOpen && (
                 <div className="md:hidden mt-4 space-y-3">
-                    <a href="#" className="block text-gray-700 hover:text-blue-600">
+                    <Link href="#" className="block text-gray-700 hover:text-blue-600">
                         Home
-                    </a>
-                    <a href="#" className="block text-gray-700 hover:text-blue-600">
+                    </Link>
+                    <Link href="#" className="block text-gray-700 hover:text-blue-600">
                         Features
-                    </a>
-                    <a href="#" className="block text-gray-700 hover:text-blue-600">
+                    </Link>
+                    <Link href="#" className="block text-gray-700 hover:text-blue-600">
                         Pricing
-                    </a>
-                    <a href="#" className="block text-gray-700 hover:text-blue-600">
+                    </Link>
+                    <Link href="#" className="block text-gray-700 hover:text-blue-600">
                         Faq
-                    </a>
+                    </Link>
                     <button className="w-full px-5 py-2 bg-blue-500 text-white text-sm rounded-full hover:bg-blue-600 transition">
                         Download
                     </button>

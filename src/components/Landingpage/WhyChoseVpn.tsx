@@ -5,7 +5,7 @@
 // import { AdjustmentsIcon } from "@heroicons/react/outline";
 
 import Image from "next/image";
-import Section from "./ui/Section";
+import Section from "../ui/Section";
 
 const features = [
  {

@@ -1,13 +1,13 @@
  
-import HeroSection from "@/components/heroSection";
+import HeroSection from "@/components/Landingpage/heroSection";
 import Image from "next/image";
-import WhyChoseVpn from "@/components/WhyChoseVpn";
-import DownloadSection from "@/components/DownloadSection";
-import CardSection from "@/components/PricingSection";
-import Testimonials from "@/components/Testimonials";
- import Features from "@/components/Features";
+import WhyChoseVpn from "@/components/Landingpage/WhyChoseVpn";
+import DownloadSection from "@/components/Landingpage/DownloadSection";
+import CardSection from "@/components/Landingpage/PricingSection";
+import Testimonials from "@/components/Landingpage/Testimonials";
+ import Features from "@/components/Landingpage/FeatureInLandingpage";
  
-import FAQSection from "@/components/FAQSection";
+import FAQSection from "@/components/Landingpage/FAQSection";
  
 export default function Home() {
   return (

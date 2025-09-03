@@ -1,7 +1,7 @@
-import DownloadVPN from "@/components/download/DownloadVPN";
-import HowToInstallVPN from "@/components/download/HowToInstallVPN";
-import DownloadSection from "@/components/DownloadSection";
-import FAQSection from "@/components/FAQSection";
+import DownloadVPN from "@/components/DownloadPageSections/DownloadVPN";
+import HowToInstallVPN from "@/components/DownloadPageSections/HowToInstallVPN";
+import DownloadSection from "@/components/Landingpage/DownloadSection";
+import FAQSection from "@/components/Landingpage/FAQSection";
 
 
 

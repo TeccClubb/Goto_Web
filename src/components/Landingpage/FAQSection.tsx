@@ -1,7 +1,7 @@
 "use client";
 
- import FAQItem from "./ui/FAQItem";
-import Section from "./ui/Section";
+ import FAQItem from "../ui/FAQItem";
+import Section from "../ui/Section";
 
 const faqs = [
   {
