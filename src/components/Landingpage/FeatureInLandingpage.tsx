@@ -1,4 +1,4 @@
-import { Shield, Zap, CheckCircle } from "lucide-react";
+ 
 import FeatureCard from "../ui/WhyChoseVPNCards";
 import Section from "../ui/Section";
 

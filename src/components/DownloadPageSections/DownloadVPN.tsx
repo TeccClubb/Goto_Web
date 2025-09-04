@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Section from "../ui/Section";
-import { Check, CheckCircle, TicketCheck } from "lucide-react";
+import { Check  } from "lucide-react";
 
 export default function DownloadVPN() {
     return (

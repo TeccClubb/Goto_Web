@@ -1,6 +1,6 @@
  
 import HeroSection from "@/components/Landingpage/heroSection";
-import Image from "next/image";
+ 
 import WhyChoseVpn from "@/components/Landingpage/WhyChoseVpn";
 import DownloadSection from "@/components/Landingpage/DownloadSection";
 import CardSection from "@/components/Landingpage/PricingSection";

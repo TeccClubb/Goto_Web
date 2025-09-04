@@ -1,4 +1,4 @@
-import PricingPlans from "@/components/Landingpage/PricingSection";
+ 
 import PricingCard from "@/components/ui/PricingCard";
 import Section from "@/components/ui/Section";
 import { plans } from "@/components/Landingpage/PricingSection";

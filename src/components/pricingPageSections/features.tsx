@@ -7,26 +7,29 @@ const features = [
     title: "AES-256 Encryption",
     description:
       "Military-grade encryption protects all your data",
-    icon: <Shield className="w-6 h-6" />,
+    icon:  "/featuresimgs/security.png",
   },
   {
     title: "No logs Policy",
     description:
       "We never track ,collect or share your data",
-    icon: <Zap className="w-6 h-6" />,
+        icon:  "/featuresimgs/nologPolicy.png",
+
   },
   {
     title: "Unlimited Bandwidth",
     description:
       "Stream, browser and download without limit",
-    icon: <CheckCircle className="w-6 h-6" />,
+        icon:  "/featuresimgs/bandWidth.png",
+
   },
   {
     title: "30 Days Guarantee",
     description:
       "Fully refund if you'ae not completely satisfied",
-    icon: <CheckCircle className="w-6 h-6" />,
-  },
+        icon:  "/featuresimgs/gaurentee.png",
+
+  },  
 ];
 
 export default function PricingFeatures() {
@@ -41,8 +44,13 @@ export default function PricingFeatures() {
 
         {/* Features Grid */}
         <div className="grid gap-8 md:grid-cols-4">
-          {features.map((f, index) => (
-            <FeatureCard key={index} {...f} />
+          {features.map((feature, index) => (
+           <FeatureCard
+                                key={feature.title}
+                                icon={feature.icon}
+                                title={feature.title}
+                                description={feature.description}
+                              />
           ))}
         </div>
       </div>

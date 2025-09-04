@@ -11,11 +11,11 @@ export default function FeatureCard({ icon, title, description }: FeatureCardPro
   return (
     <div className="flex flex-col items-center text-center p-6  rounded-2xl  hover:shadow-md transition">
       {/* Icon */}
-      <div className="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white text-2xl mb-4">
+      <div className="w-14 h-14 flex items-center justify-center rounded-full   text-white text-2xl mb-4">
          <Image 
          src={icon}
-         width={100}
-         height={100}
+         width={60}
+         height={60}
          alt="privacy"
          >
 

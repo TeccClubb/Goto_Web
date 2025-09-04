@@ -3,7 +3,7 @@ import SupportCenter from "@/components/supportPage/supportCenter";
 import FeatureCard from "@/components/ui/FeatureCard";
  
 import Section from "@/components/ui/Section";
-import { CheckCircle, Shield, Zap } from "lucide-react";
+ 
 
 const features = [
   {

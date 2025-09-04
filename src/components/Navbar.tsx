@@ -2,9 +2,7 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react"; // hamburger + close icons
 import Link from "next/link";
-// import { poppins } from "@/app/layout";
-// import { poppins } from "@/lib/fonts/fonts"; // ✅ only poppins here
-
+ 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
