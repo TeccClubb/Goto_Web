@@ -1,4 +1,3 @@
- import { Shield, Zap, CheckCircle } from "lucide-react";
 import FeatureCard from "../ui/WhyChoseVPNCards";
 import Section from "../ui/Section";
 
@@ -46,7 +45,7 @@ export default function PricingFeatures() {
         <div className="grid gap-8 md:grid-cols-4">
           {features.map((feature, index) => (
            <FeatureCard
-                                key={feature.title}
+                                key={index}
                                 icon={feature.icon}
                                 title={feature.title}
                                 description={feature.description}

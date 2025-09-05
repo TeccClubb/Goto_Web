@@ -1,6 +1,7 @@
 // components/Footer.tsx
 "use client";
 
+import Link from "next/link";
 import { FaTwitter, FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
@@ -40,18 +41,16 @@ export default function Footer() {
             <li><a href="#" className="hover:text-white">About</a></li>
             <li><a href="#" className="hover:text-white">Blog</a></li>
             <li><a href="#" className="hover:text-white">Careers</a></li>
-            <li><a href="#" className="hover:text-white">Contact</a></li>
+            <li><Link href="/support" className="hover:text-white">Contact</Link></li>
           </ul>
         </div>
 
         {/* Support */}
         <div>
-          <h3 className="text-white font-semibold mb-3">Support</h3>
+          <h3 className="text-white font-semibold mb-3">Legal</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-white">Help Center</a></li>
-            <li><a href="#" className="hover:text-white">Live Chat</a></li>
-            <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
-            <li><a href="#" className="hover:text-white">Terms of Service</a></li>
+            <li><Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link></li>
+            <li><Link href="/term-of-services" className="hover:text-white">Terms of Service</Link></li>
           </ul>
         </div>
       </div>

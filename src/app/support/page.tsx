@@ -1,5 +1,4 @@
 import ContactForm from "@/components/supportPage/ContactUs";
-import SupportCenter from "@/components/supportPage/supportCenter";
 import FeatureCard from "@/components/ui/FeatureCard";
  
 import Section from "@/components/ui/Section";
@@ -37,7 +36,8 @@ const features = [
 export default function Supportpage() {
 
     return <div>
-        <SupportCenter></SupportCenter>
+        <Section className="bg-gray-50" heading="Support Center" paragraph="Get the help you need,when you need it.Our support team is hear 24/7 to assist you"/>
+
         <Section
              heading="Why Choose Goto VPN"
              paragraph="Experience the ultimate in online freedom with our premium VPN Features designed for your security and privacy."

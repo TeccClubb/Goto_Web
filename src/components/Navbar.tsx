@@ -13,6 +13,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center ">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src="/gotologoi.png" alt="Logo" className="h-17 w-33" />
                     {/* <span className="text-lg font-bold text-blue-600">Goto</span> */}
                 </div>
@@ -21,9 +22,6 @@ export default function Navbar() {
                 <nav className="hidden md:flex space-x-8 text-lg font-medium text-gray-700">
                     <Link href="/" className="hover:text-blue-600">
                         Home
-                    </Link>
-                    <Link href="features" className="hover:text-blue-600">
-                        Features
                     </Link>
                     <Link href="/pricing" className="hover:text-blue-600">
                         Pricing
@@ -52,9 +50,6 @@ export default function Navbar() {
                 <div className="md:hidden mt-4 space-y-3">
                     <Link href="#" className="block text-gray-700 hover:text-blue-600">
                         Home
-                    </Link>
-                    <Link href="#" className="block text-gray-700 hover:text-blue-600">
-                        Features
                     </Link>
                     <Link href="#" className="block text-gray-700 hover:text-blue-600">
                         Pricing
