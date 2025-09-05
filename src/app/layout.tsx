@@ -26,10 +26,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body
-        className={` antialiased`}
+        className="antialiased min-h-screen flex flex-col"
       >
         <Navbar></Navbar>
+        <main className="flex-grow">
+
         {children}
+        </main>
         <Footer></Footer>
       </body>
     </html>

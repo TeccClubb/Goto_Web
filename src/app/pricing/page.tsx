@@ -1,14 +1,12 @@
  
 import PricingCard from "@/components/ui/PricingCard";
 import Section from "@/components/ui/Section";
-import { plans } from "@/components/Landingpage/PricingSection";
 import PricingFeatures from "@/components/pricingPageSections/features";
 import FAQSection from "@/components/Landingpage/FAQSection";
+import { fetchPlans } from "@/lib/fetchPlans";
 
-
-
-
-export default function Pricing() {
+export default async function Pricing() {
+    const { plans } = await fetchPlans()
     return <div>
         <Section heading="Choose Your Plan" paragraph="All plans include the  same  premium  features with military-grade encryption, unlimited bandwidth,and access to all server locations worldwide" className="bg-gray-50">
             <div className="flex justify-center gap-5 mb-8">
@@ -23,7 +21,7 @@ export default function Pricing() {
             </div>
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {plans.map((plan, idx) => (
-                    <PricingCard key={idx} {...plan} />
+                    <PricingCard key={idx} plan={plan} />
                 ))}
             </div>
         </Section>
