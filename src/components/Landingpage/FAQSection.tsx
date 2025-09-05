@@ -33,7 +33,7 @@ const faqs = [
 
 export default function FAQSection() {
   return (
-    <Section heading="Frequently Asked Questions" paragraph="everything you need to know about SecureVPN" className="bg-gray-50">
+    <Section id="faq-section" heading="Frequently Asked Questions" paragraph="everything you need to know about SecureVPN" className="bg-gray-50">
 
  
     

@@ -26,7 +26,7 @@ export default function Navbar() {
                     <Link href="/pricing" className="hover:text-blue-600">
                         Pricing
                     </Link>
-                    <Link href="/faq" className="hover:text-blue-600">
+                    <Link href="/#faq-section" className="hover:text-blue-600">
                         Faq
                     </Link>
                 </nav>
