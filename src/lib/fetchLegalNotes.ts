@@ -15,6 +15,9 @@ export const fetchLegalNotes = async (): Promise<{
     const res = await axios.get<LegalNotes>(GET_LEGAL_NOTES_ROUTE, {
       headers: {
         Accept: "application/json",
+        "Cache-Control": "no-cache", // Indicates that the response can be stored but must be revalidated before reuse.
+        Pragma: "no-cache", // A legacy header, but still useful for older HTTP/1.0 caches.
+        Expires: "0", // Instructs the client to consider the response stale immediately.
       },
     });
     if (res.status === 200) {
